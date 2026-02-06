@@ -13,7 +13,7 @@ export async function AttendFormAction(data: FormData) {
 	}
 
 	const auth = new google.auth.GoogleAuth({
-		keyFile: "./service_account_key.json",
+		credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON!),
 		scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 	});
 
