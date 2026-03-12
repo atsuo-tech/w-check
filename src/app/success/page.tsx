@@ -1,8 +1,8 @@
 export default function SuccessPage() {
 	return (
 		<main>
-			<h1>Attendance Recorded Successfully!</h1>
-			<p>Thank you for checking in.</p>
+			<h1>成功！！</h1>
+			<p>出席しました。</p>
 		</main>
 	)
 }

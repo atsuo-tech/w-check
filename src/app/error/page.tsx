@@ -1,9 +1,9 @@
 export default function ErrorPage() {
 	return (
 		<main>
-			<h1>Error Occured!</h1>
+			<h1>失敗！</h1>
 			<p>
-				Invalid Code.
+				無効なコードです
 			</p>
 		</main>
 	)
